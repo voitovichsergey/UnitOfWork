@@ -1,6 +1,3 @@
-# Nuget.org
-https://www.nuget.org/packages/Voitovich.Patterns.UnitOfWork.EF
- 
 # Unit of Work
 ## Theory
 Unit of Work is a pattern that defines a logical transaction, i.e. atomic synchronization of changes in objects placed in a UoW object with a repository (database).
@@ -86,7 +83,10 @@ public class DriverService : IDriverService
 ```
 ## For what
 - Move DbContext from BLL to DAL
-- Hide large linq instructions in repositories
+- Hide large linq statements in repositories
 
 ## License
 MIT
+
+## Nuget
+https://www.nuget.org/packages/Voitovich.Patterns.UnitOfWork.EF
