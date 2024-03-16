@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>Voitovich.Patterns.UnitOfWork.EF</PackageId>
     <Title>Pattern UnitOfWork for EntityFramework</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Voitovich Sergey</Authors>
     <PackageTags>UnitOfWork, EntityFramework, Uow, Behaviour, Pattern</PackageTags>
     <Company>$(Authors)</Company>
@@ -16,6 +16,8 @@
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageIcon>uow.png</PackageIcon>
     <RepositoryUrl>https://github.com/voitovichsergey/UnitOfWork</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/voitovichsergey/UnitOfWork</PackageProjectUrl>
+    <PackageReleaseNotes>Add project URL</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
