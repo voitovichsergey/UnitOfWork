@@ -1,4 +1,7 @@
-﻿# Unit of Work
+# Nuget.org
+https://www.nuget.org/packages/Voitovich.Patterns.UnitOfWork.EF
+ 
+# Unit of Work
 ## Theory
 Unit of Work is a pattern that defines a logical transaction, i.e. atomic synchronization of changes in objects placed in a UoW object with a repository (database).
 If we turn to the original description of this pattern by Martin Fowler, it can be seen that the object implementing this pattern is responsible for accumulating information about which objects are included in the transaction and what their changes are relative to the original values in the repository. The main work is done in the commit() method, which is responsible for calculating changes in objects stored in UoW and synchronizing these changes with the repository (database).
